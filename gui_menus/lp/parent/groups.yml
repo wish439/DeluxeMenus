@@ -2,6 +2,12 @@
 update: true
 open_command: groups
 size: 54
+open_requirement:
+  requirements:
+    op:
+      type: string equals
+      input: '%player_is_op%'
+      output: 'yes'
 items:
   'fill':
     display_name: "&#64ff64我&#73ff73只&#82ff82是&#91ff91一&#a0ffa0个&#afffaf分&#beffbe割&#cdffcd线&#dcffdc:&#ebffebD&#fafffa"
