@@ -1,0 +1,275 @@
+﻿menu_title: '玩家选择菜单'
+open_command: pys
+size: 45
+items:
+  'fill':
+    display_name: "&#64ff64我&#73ff73只&#82ff82是&#91ff91一&#a0ffa0个&#afffaf分&#beffbe割&#cdffcd线&#dcffdc:&#ebffebD&#fafffa"
+    material: WHITE_STAINED_GLASS_PANE
+    slots: [0,1,2,3,4,5,6,7,8,9,17,18,26,27,35,36,37,38,39,41,42,43,44]
+  "head0":
+    material: head-%playerlist_staff_0%
+    display_name: "%playerlist_staff_0%"
+    slot: 10
+    left_click_commands:
+      - "[meta] set curcom STRING %deluxemenus_meta_curcom_STRING% %playerlist_staff_0%"
+      - "[openguimenu] %deluxemenus_meta_nxgm_STRING%"
+  "head1":
+    material: head-%playerlist_staff_1%
+    display_name: "%playerlist_staff_1%"
+    slot: 11
+    view_requirement: 
+      requirements:
+        yes:
+          type: "!string equals"
+          input: '%playerlist_staff_1%'
+          output: 'Offline'
+    left_click_commands:
+      - "[meta] set curcom STRING %deluxemenus_meta_curcom_STRING% %playerlist_staff_0%"
+      - "[openguimenu] %deluxemenus_meta_nxgm_STRING%"
+  "head2":
+    material: head-%playerlist_staff_2%
+    display_name: "%playerlist_staff_2%"
+    slot: 12
+    view_requirement: 
+      requirements:
+        yes:
+          type: "!string equals"
+          input: '%playerlist_staff_2%'
+          output: 'Offline'
+    left_click_commands:
+      - "[meta] set curcom STRING %deluxemenus_meta_curcom_STRING% %playerlist_staff_0%"
+      - "[openguimenu] %deluxemenus_meta_nxgm_STRING%"
+  "head3":
+    material: head-%playerlist_staff_3%
+    display_name: "%playerlist_staff_3%"
+    slot: 13
+    view_requirement: 
+      requirements:
+        yes:
+          type: "!string equals"
+          input: '%playerlist_staff_3%'
+          output: 'Offline'
+    left_click_commands:
+      - "[meta] set curcom STRING %deluxemenus_meta_curcom_STRING% %playerlist_staff_0%"
+      - "[openguimenu] %deluxemenus_meta_nxgm_STRING%"
+  "head4":
+    material: head-%playerlist_staff_4%
+    display_name: "%playerlist_staff_4%"
+    slot: 14
+    view_requirement: 
+      requirements:
+        yes:
+          type: "!string equals"
+          input: '%playerlist_staff_4%'
+          output: 'Offline'
+    left_click_commands:
+      - "[meta] set curcom STRING %deluxemenus_meta_curcom_STRING% %playerlist_staff_0%"
+      - "[openguimenu] %deluxemenus_meta_nxgm_STRING%"
+  "head5":
+    material: head-%playerlist_staff_5%
+    display_name: "%playerlist_staff_5%"
+    slot: 15
+    view_requirement: 
+      requirements:
+        yes:
+          type: "!string equals"
+          input: '%playerlist_staff_5%'
+          output: 'Offline'
+    left_click_commands:
+      - "[meta] set curcom STRING %deluxemenus_meta_curcom_STRING% %playerlist_staff_0%"
+      - "[openguimenu] %deluxemenus_meta_nxgm_STRING%"
+  "head6":
+    material: head-%playerlist_staff_6%
+    display_name: "%playerlist_staff_6%"
+    slot: 16
+    view_requirement: 
+      requirements:
+        yes:
+          type: "!string equals"
+          input: '%playerlist_staff_6%'
+          output: 'Offline'
+    left_click_commands:
+      - "[meta] set curcom STRING %deluxemenus_meta_curcom_STRING% %playerlist_staff_0%"
+      - "[openguimenu] %deluxemenus_meta_nxgm_STRING%"
+  "head7":
+    material: head-%playerlist_staff_7%
+    display_name: "%playerlist_staff_7%"
+    slot: 19
+    view_requirement: 
+      requirements:
+        yes:
+          type: "!string equals"
+          input: '%playerlist_staff_7%'
+          output: 'Offline'
+    left_click_commands:
+      - "[meta] set curcom STRING %deluxemenus_meta_curcom_STRING% %playerlist_staff_7%"
+      - "[openguimenu] %deluxemenus_meta_nxgm_STRING%"
+  "head8":
+    material: head-%playerlist_staff_8%
+    display_name: "%playerlist_staff_8%"
+    slot: 20
+    view_requirement: 
+      requirements:
+        yes:
+          type: "!string equals"
+          input: '%playerlist_staff_8%'
+          output: 'Offline'
+    left_click_commands:
+      - "[meta] set curcom STRING %deluxemenus_meta_curcom_STRING% %playerlist_staff_8%"
+      - "[openguimenu] %deluxemenus_meta_nxgm_STRING%"
+  "head9":
+    material: head-%playerlist_staff_9%
+    display_name: "%playerlist_staff_9%"
+    slot: 21
+    view_requirement: 
+      requirements:
+        yes:
+          type: "!string equals"
+          input: '%playerlist_staff_9%'
+          output: 'Offline'
+    left_click_commands:
+      - "[meta] set curcom STRING %deluxemenus_meta_curcom_STRING% %playerlist_staff_9%"
+      - "[openguimenu] %deluxemenus_meta_nxgm_STRING%"
+  "head10":
+    material: head-%playerlist_staff_10%
+    display_name: "%playerlist_staff_10%"
+    slot: 22
+    view_requirement: 
+      requirements:
+        yes:
+          type: "!string equals"
+          input: '%playerlist_staff_10%'
+          output: 'Offline'
+    left_click_commands:
+      - "[meta] set curcom STRING %deluxemenus_meta_curcom_STRING% %playerlist_staff_10%"
+      - "[openguimenu] %deluxemenus_meta_nxgm_STRING%"
+  "head11":
+    material: head-%playerlist_staff_11%
+    display_name: "%playerlist_staff_11%"
+    slot: 23
+    view_requirement: 
+      requirements:
+        yes:
+          type: "!string equals"
+          input: '%playerlist_staff_11%'
+          output: 'Offline'
+    left_click_commands:
+      - "[meta] set curcom STRING %deluxemenus_meta_curcom_STRING% %playerlist_staff_11%"
+      - "[openguimenu] %deluxemenus_meta_nxgm_STRING%"
+  "head12":
+    material: head-%playerlist_staff_12%
+    display_name: "%playerlist_staff_12%"
+    slot: 24
+    view_requirement: 
+      requirements:
+        yes:
+          type: "!string equals"
+          input: '%playerlist_staff_12%'
+          output: 'Offline'
+    left_click_commands:
+      - "[meta] set curcom STRING %deluxemenus_meta_curcom_STRING% %playerlist_staff_12%"
+      - "[openguimenu] %deluxemenus_meta_nxgm_STRING%"
+  "head13":
+    material: head-%playerlist_staff_13%
+    display_name: "%playerlist_staff_13%"
+    slot: 25
+    view_requirement: 
+      requirements:
+        yes:
+          type: "!string equals"
+          input: '%playerlist_staff_13%'
+          output: 'Offline'
+    left_click_commands:
+      - "[meta] set curcom STRING %deluxemenus_meta_curcom_STRING% %playerlist_staff_13%"
+      - "[openguimenu] %deluxemenus_meta_nxgm_STRING%"
+  "head14":
+    material: head-%playerlist_staff_14%
+    display_name: "%playerlist_staff_14%"
+    slot: 28
+    view_requirement: 
+      requirements:
+        yes:
+          type: "!string equals"
+          input: '%playerlist_staff_14%'
+          output: 'Offline'
+    left_click_commands:
+      - "[meta] set curcom STRING %deluxemenus_meta_curcom_STRING% %playerlist_staff_14%"
+      - "[openguimenu] %deluxemenus_meta_nxgm_STRING%"
+  "head15":
+    material: head-%playerlist_staff_15%
+    display_name: "%playerlist_staff_15%"
+    slot: 29
+    view_requirement: 
+      requirements:
+        yes:
+          type: "!string equals"
+          input: '%playerlist_staff_15%'
+          output: 'Offline'
+    left_click_commands:
+      - "[meta] set curcom STRING %deluxemenus_meta_curcom_STRING% %playerlist_staff_15%"
+      - "[openguimenu] %deluxemenus_meta_nxgm_STRING%"
+  "head16":
+    material: head-%playerlist_staff_16%
+    display_name: "%playerlist_staff_16%"
+    slot: 30
+    view_requirement: 
+      requirements:
+        yes:
+          type: "!string equals"
+          input: '%playerlist_staff_16%'
+          output: 'Offline'
+    left_click_commands:
+      - "[meta] set curcom STRING %deluxemenus_meta_curcom_STRING% %playerlist_staff_16%"
+      - "[openguimenu] %deluxemenus_meta_nxgm_STRING%"
+  "head17":
+    material: head-%playerlist_staff_17%
+    display_name: "%playerlist_staff_17%"
+    slot: 31
+    view_requirement: 
+      requirements:
+        yes:
+          type: "!string equals"
+          input: '%playerlist_staff_17%'
+          output: 'Offline'
+    left_click_commands:
+      - "[meta] set curcom STRING %deluxemenus_meta_curcom_STRING% %playerlist_staff_17%"
+      - "[openguimenu] %deluxemenus_meta_nxgm_STRING%"
+  "head18":
+    material: head-%playerlist_staff_18%
+    display_name: "%playerlist_staff_18%"
+    slot: 32
+    view_requirement: 
+      requirements:
+        yes:
+          type: "!string equals"
+          input: '%playerlist_staff_18%'
+          output: 'Offline'
+    left_click_commands:
+      - "[meta] set curcom STRING %deluxemenus_meta_curcom_STRING% %playerlist_staff_18%"
+      - "[openguimenu] %deluxemenus_meta_nxgm_STRING%"
+  "head19":
+    material: head-%playerlist_staff_19%
+    display_name: "%playerlist_staff_19%"
+    slot: 33
+    view_requirement: 
+      requirements:
+        yes:
+          type: "!string equals"
+          input: '%playerlist_staff_19%'
+          output: 'Offline'
+    left_click_commands:
+      - "[meta] set curcom STRING %deluxemenus_meta_curcom_STRING% %playerlist_staff_19%"
+      - "[openguimenu] %deluxemenus_meta_nxgm_STRING%"
+  "head20":
+    material: head-%playerlist_staff_20%
+    display_name: "%playerlist_staff_20%"
+    slot: 34
+    view_requirement: 
+      requirements:
+        yes:
+          type: "!string equals"
+          input: '%playerlist_staff_20%'
+          output: 'Offline'
+    left_click_commands:
+      - "[meta] set curcom STRING %deluxemenus_meta_curcom_STRING% %playerlist_staff_20%"
+      - "[openguimenu] %deluxemenus_meta_nxgm_STRING%"
