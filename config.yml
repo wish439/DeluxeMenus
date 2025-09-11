@@ -33,3 +33,7 @@ gui_menus:
     file: lp\\gps.yml
   pgps:
     file: lp\\pgps.yml
+  tags:
+    file: tagaction\\tags.yml
+  tagmain:
+    file: tagaction\\tagmain.yml

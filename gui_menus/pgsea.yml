@@ -21,3 +21,10 @@ items:
     left_click_commands:
       - "[sound] BLOCK_LEVER_CLICK"
       - "[openguimenu] advbanmain"
+  'tag': 
+    display_name: "操作标签"
+    material: BARRIER
+    slot: 12
+    left_click_commands:
+      - "[sound] BLOCK_LEVER_CLICK"
+      - "[openguimenu] tagmain"

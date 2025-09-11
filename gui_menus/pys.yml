@@ -11,7 +11,8 @@ items:
     display_name: "%playerlist_players_0%"
     slot: 10
     left_click_commands:
-      - "[meta] set curcom STRING %deluxemenus_meta_curcom_STRING% %playerlist_players_0%"
+      - "[meta] set curcom STRING %deluxemenus_meta_curcom_STRING% %playerlist_players_0% %deluxemenus_meta_nxtext_STRING%"
+      - "[meta] remove nxtext STRING"
       - "[meta] set curtar STRING %playerlist_players_0%"
       - "[openguimenu] %deluxemenus_meta_nxgm_STRING%"
     view_requirement: 
@@ -24,7 +25,7 @@ items:
           type: "!string contains"
           input: '%playerlist_players_0%'
           output: '('
-    "head1":
+  "head1":
       material: head-%playerlist_players_1%
       display_name: "%playerlist_players_1%"
       slot: 11
@@ -39,7 +40,8 @@ items:
           input: '%playerlist_players_1%'
           output: '('
       left_click_commands:
-        - "[meta] set curcom STRING %deluxemenus_meta_curcom_STRING% %playerlist_players_1%"
+        - "[meta] set curcom STRING %deluxemenus_meta_curcom_STRING% %playerlist_players_1% %deluxemenus_meta_nxtext_STRING%"
+        - "[meta] remove nxtext STRING"
         - "[meta] set curtar STRING %playerlist_players_1%"
         - "[openguimenu] %deluxemenus_meta_nxgm_STRING%"
   "head2":
@@ -57,7 +59,8 @@ items:
           input: '%playerlist_players_2%'
           output: '('
     left_click_commands:
-      - "[meta] set curcom STRING %deluxemenus_meta_curcom_STRING% %playerlist_players_2%"
+      - "[meta] set curcom STRING %deluxemenus_meta_curcom_STRING% %playerlist_players_2% %deluxemenus_meta_nxtext_STRING%"
+      - "[meta] remove nxtext STRING"
       - "[meta] set curtar STRING %playerlist_players_2%"
       - "[openguimenu] %deluxemenus_meta_nxgm_STRING%"
   "head3":
@@ -75,7 +78,8 @@ items:
           input: '%playerlist_players_3%'
           output: '('
     left_click_commands:
-      - "[meta] set curcom STRING %deluxemenus_meta_curcom_STRING% %playerlist_players_3%"
+      - "[meta] set curcom STRING %deluxemenus_meta_curcom_STRING% %playerlist_players_3% %deluxemenus_meta_nxtext_STRING%"
+      - "[meta] remove nxtext STRING"
       - "[meta] set curtar STRING %playerlist_players_3%"
       - "[openguimenu] %deluxemenus_meta_nxgm_STRING%"
   "head4":
@@ -93,7 +97,8 @@ items:
           input: '%playerlist_players_4%'
           output: '('
     left_click_commands:
-      - "[meta] set curcom STRING %deluxemenus_meta_curcom_STRING% %playerlist_players_4%"
+      - "[meta] set curcom STRING %deluxemenus_meta_curcom_STRING% %playerlist_players_4% %deluxemenus_meta_nxtext_STRING%"
+      - "[meta] remove nxtext STRING"
       - "[meta] set curtar STRING %playerlist_players_4%"
       - "[openguimenu] %deluxemenus_meta_nxgm_STRING%"
   "head5":
@@ -111,7 +116,8 @@ items:
           input: '%playerlist_players_5%'
           output: '('
     left_click_commands:
-      - "[meta] set curcom STRING %deluxemenus_meta_curcom_STRING% %playerlist_players_5%"
+      - "[meta] set curcom STRING %deluxemenus_meta_curcom_STRING% %playerlist_players_5% %deluxemenus_meta_nxtext_STRING%"
+      - "[meta] remove nxtext STRING"
       - "[meta] set curtar STRING %playerlist_players_5%"
       - "[openguimenu] %deluxemenus_meta_nxgm_STRING%"
   "head6":
@@ -129,7 +135,8 @@ items:
           input: '%playerlist_players_6%'
           output: '('
     left_click_commands:
-      - "[meta] set curcom STRING %deluxemenus_meta_curcom_STRING% %playerlist_players_6%"
+      - "[meta] set curcom STRING %deluxemenus_meta_curcom_STRING% %playerlist_players_6% %deluxemenus_meta_nxtext_STRING%"
+      - "[meta] remove nxtext STRING"
       - "[meta] set curtar STRING %playerlist_players_6%"
       - "[openguimenu] %deluxemenus_meta_nxgm_STRING%"
   "head7":
@@ -147,7 +154,8 @@ items:
           input: '%playerlist_players_7%'
           output: '('
     left_click_commands:
-      - "[meta] set curcom STRING %deluxemenus_meta_curcom_STRING% %playerlist_players_7%"
+      - "[meta] set curcom STRING %deluxemenus_meta_curcom_STRING% %playerlist_players_7% %deluxemenus_meta_nxtext_STRING%"
+      - "[meta] remove nxtext STRING"
       - "[meta] set curtar STRING %playerlist_players_7%"
       - "[openguimenu] %deluxemenus_meta_nxgm_STRING%"
   "head8":
@@ -165,7 +173,8 @@ items:
           input: '%playerlist_players_8%'
           output: '('
     left_click_commands:
-      - "[meta] set curcom STRING %deluxemenus_meta_curcom_STRING% %playerlist_players_8%"
+      - "[meta] set curcom STRING %deluxemenus_meta_curcom_STRING% %playerlist_players_8% %deluxemenus_meta_nxtext_STRING%"
+      - "[meta] remove nxtext STRING"
       - "[meta] set curtar STRING %playerlist_players_8%"
       - "[openguimenu] %deluxemenus_meta_nxgm_STRING%"
   "head9":
@@ -183,7 +192,8 @@ items:
           input: '%playerlist_players_9%'
           output: '('
     left_click_commands:
-      - "[meta] set curcom STRING %deluxemenus_meta_curcom_STRING% %playerlist_players_9%"
+      - "[meta] set curcom STRING %deluxemenus_meta_curcom_STRING% %playerlist_players_9% %deluxemenus_meta_nxtext_STRING%"
+      - "[meta] remove nxtext STRING"
       - "[meta] set curtar STRING %playerlist_players_9%"
       - "[openguimenu] %deluxemenus_meta_nxgm_STRING%"
   "head10":
@@ -201,7 +211,8 @@ items:
           input: '%playerlist_players_10%'
           output: '('
     left_click_commands:
-      - "[meta] set curcom STRING %deluxemenus_meta_curcom_STRING% %playerlist_players_10%"
+      - "[meta] set curcom STRING %deluxemenus_meta_curcom_STRING% %playerlist_players_10% %deluxemenus_meta_nxtext_STRING%"
+      - "[meta] remove nxtext STRING"
       - "[meta] set curtar STRING %playerlist_players_10%"
       - "[openguimenu] %deluxemenus_meta_nxgm_STRING%"
   "head11":
@@ -219,7 +230,8 @@ items:
           input: '%playerlist_players_11%'
           output: '('
     left_click_commands:
-      - "[meta] set curcom STRING %deluxemenus_meta_curcom_STRING% %playerlist_players_11%"
+      - "[meta] set curcom STRING %deluxemenus_meta_curcom_STRING% %playerlist_players_11% %deluxemenus_meta_nxtext_STRING%"
+      - "[meta] remove nxtext STRING"
       - "[meta] set curtar STRING %playerlist_players_11%"
       - "[openguimenu] %deluxemenus_meta_nxgm_STRING%"
   "head12":
@@ -237,7 +249,8 @@ items:
           input: '%playerlist_players_12%'
           output: '('
     left_click_commands:
-      - "[meta] set curcom STRING %deluxemenus_meta_curcom_STRING% %playerlist_players_12%"
+      - "[meta] set curcom STRING %deluxemenus_meta_curcom_STRING% %playerlist_players_12% %deluxemenus_meta_nxtext_STRING%"
+      - "[meta] remove nxtext STRING"
       - "[meta] set curtar STRING %playerlist_players_12%"
       - "[openguimenu] %deluxemenus_meta_nxgm_STRING%"
   "head13":
@@ -255,7 +268,8 @@ items:
           input: '%playerlist_players_13%'
           output: '('
     left_click_commands:
-      - "[meta] set curcom STRING %deluxemenus_meta_curcom_STRING% %playerlist_players_13%"
+      - "[meta] set curcom STRING %deluxemenus_meta_curcom_STRING% %playerlist_players_13% %deluxemenus_meta_nxtext_STRING%"
+      - "[meta] remove nxtext STRING"
       - "[meta] set curtar STRING %playerlist_players_13%"
       - "[openguimenu] %deluxemenus_meta_nxgm_STRING%"
   "head14":
@@ -273,7 +287,8 @@ items:
           input: '%playerlist_players_14%'
           output: '('
     left_click_commands:
-      - "[meta] set curcom STRING %deluxemenus_meta_curcom_STRING% %playerlist_players_14%"
+      - "[meta] set curcom STRING %deluxemenus_meta_curcom_STRING% %playerlist_players_14% %deluxemenus_meta_nxtext_STRING%"
+      - "[meta] remove nxtext STRING"
       - "[meta] set curtar STRING %playerlist_players_14%"
       - "[openguimenu] %deluxemenus_meta_nxgm_STRING%"
   "head15":
@@ -291,7 +306,8 @@ items:
           input: '%playerlist_players_15%'
           output: '('
     left_click_commands:
-      - "[meta] set curcom STRING %deluxemenus_meta_curcom_STRING% %playerlist_players_15%"
+      - "[meta] set curcom STRING %deluxemenus_meta_curcom_STRING% %playerlist_players_15% %deluxemenus_meta_nxtext_STRING%"
+      - "[meta] remove nxtext STRING"
       - "[meta] set curtar STRING %playerlist_players_15%"
       - "[openguimenu] %deluxemenus_meta_nxgm_STRING%"
   "head16":
@@ -309,7 +325,8 @@ items:
           input: '%playerlist_players_16%'
           output: '('
     left_click_commands:
-      - "[meta] set curcom STRING %deluxemenus_meta_curcom_STRING% %playerlist_players_16%"
+      - "[meta] set curcom STRING %deluxemenus_meta_curcom_STRING% %playerlist_players_16% %deluxemenus_meta_nxtext_STRING%"
+      - "[meta] remove nxtext STRING"
       - "[meta] set curtar STRING %playerlist_players_16%"
       - "[openguimenu] %deluxemenus_meta_nxgm_STRING%"
   "head17":
@@ -327,7 +344,8 @@ items:
           input: '%playerlist_players_17%'
           output: '('
     left_click_commands:
-      - "[meta] set curcom STRING %deluxemenus_meta_curcom_STRING% %playerlist_players_17%"
+      - "[meta] set curcom STRING %deluxemenus_meta_curcom_STRING% %playerlist_players_17% %deluxemenus_meta_nxtext_STRING%"
+      - "[meta] remove nxtext STRING"
       - "[meta] set curtar STRING %playerlist_players_17%"
       - "[openguimenu] %deluxemenus_meta_nxgm_STRING%"
   "head18":
@@ -345,7 +363,8 @@ items:
           input: '%playerlist_players_18%'
           output: '('
     left_click_commands:
-      - "[meta] set curcom STRING %deluxemenus_meta_curcom_STRING% %playerlist_players_18%"
+      - "[meta] set curcom STRING %deluxemenus_meta_curcom_STRING% %playerlist_players_18% %deluxemenus_meta_nxtext_STRING%"
+      - "[meta] remove nxtext STRING"
       - "[meta] set curtar STRING %playerlist_players_18%"
       - "[openguimenu] %deluxemenus_meta_nxgm_STRING%"
   "head19":
@@ -363,7 +382,8 @@ items:
           input: '%playerlist_players_19%'
           output: '('
     left_click_commands:
-      - "[meta] set curcom STRING %deluxemenus_meta_curcom_STRING% %playerlist_players_19%"
+      - "[meta] set curcom STRING %deluxemenus_meta_curcom_STRING% %playerlist_players_19% %deluxemenus_meta_nxtext_STRING%"
+      - "[meta] remove nxtext STRING"
       - "[meta] set curtar STRING %playerlist_players_19%"
       - "[openguimenu] %deluxemenus_meta_nxgm_STRING%"
   "head20":
@@ -381,7 +401,8 @@ items:
           input: '%playerlist_players_20%'
           output: '('
     left_click_commands:
-      - "[meta] set curcom STRING %deluxemenus_meta_curcom_STRING% %playerlist_players_20%"
+      - "[meta] set curcom STRING %deluxemenus_meta_curcom_STRING% %playerlist_players_20% %deluxemenus_meta_nxtext_STRING%"
+      - "[meta] remove nxtext STRING"
       - "[meta] set curtar STRING %playerlist_players_20%"
       - "[openguimenu] %deluxemenus_meta_nxgm_STRING%"
   'curcom':
