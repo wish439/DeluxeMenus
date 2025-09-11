@@ -27,7 +27,7 @@ items:
     slot: 11
     left_click_commands:
       - "[sound] BLOCK_LEVER_CLICK"
-      - "[meta] set curcom STRING %deluxemenus_meta_curcom_STRING%"
+      - "[meta] set curcom STRING %deluxemenus_meta_curcom_STRING% 不知道"
       - "[openguimenu] execute"
   'damage':
     display_name: "恶意伤人"
@@ -64,7 +64,7 @@ items:
   'wgfy':
     display_name: "违规发言"
     material: DIAMOND
-    slot: 15
+    slot: 16
     left_click_commands:
       - "[sound] BLOCK_LEVER_CLICK"
       - "[meta] set curcom STRING %deluxemenus_meta_curcom_STRING% 违规发言"
@@ -72,7 +72,7 @@ items:
   'kt':
     display_name: "违规发言"
     material: DIAMOND_ORE
-    slot: 15
+    slot: 19
     left_click_commands:
       - "[sound] BLOCK_LEVER_CLICK"
       - "[meta] set curcom STRING %deluxemenus_meta_curcom_STRING% 矿透"
@@ -80,7 +80,7 @@ items:
   'fly':
     display_name: "飞行"
     material: DIAMOND_ORE
-    slot: 15
+    slot: 20
     left_click_commands:
       - "[sound] BLOCK_LEVER_CLICK"
       - "[meta] set curcom STRING %deluxemenus_meta_curcom_STRING% 飞行"
@@ -88,7 +88,7 @@ items:
   'yldsf':
     display_name: "引流第三方"
     material: DIAMOND_ORE
-    slot: 15
+    slot: 21
     left_click_commands:
       - "[sound] BLOCK_LEVER_CLICK"
       - "[meta] set curcom STRING %deluxemenus_meta_curcom_STRING% 引流第三方"
@@ -96,8 +96,14 @@ items:
   'sbfm':
     display_name: "散播负面消息"
     material: DIAMOND_ORE
-    slot: 15
+    slot: 22
     left_click_commands:
       - "[sound] BLOCK_LEVER_CLICK"
       - "[meta] set curcom STRING %deluxemenus_meta_curcom_STRING% 散播负面消息"
       - "[openguimenu] execute"
+  'curcom':
+    display_name: "当前命令"
+    material: OAK_SIGN
+    slot: 4
+    lore:
+      - "%deluxemenus_meta_curcom_STRING%"

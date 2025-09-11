@@ -22,3 +22,9 @@ items:
       - "[meta] set curcom STRING lp user"
       - "[meta] set nxgm STRING lpuser"
       - "[openguimenu] pys"
+  'curcom':
+    display_name: "当前命令"
+    material: OAK_SIGN
+    slot: 4
+    lore:
+      - "%deluxemenus_meta_curcom_STRING%"

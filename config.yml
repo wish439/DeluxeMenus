@@ -29,3 +29,7 @@ gui_menus:
     file: advban\\reasonse.yml
   advbantime:
     file: advban\\timesl.yml
+  gps:
+    file: lp\\gps.yml
+  pgps:
+    file: lp\\pgps.yml

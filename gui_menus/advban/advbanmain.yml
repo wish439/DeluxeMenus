@@ -19,7 +19,7 @@ items:
     slot: 10
     left_click_commands:
       - "[sound] BLOCK_LEVER_CLICK"
-      - "[meta] set curcom STRING advancedban:ban"
+      - "[meta] set curcom STRING ban"
       - "[meta] set nxgm STRING advbanreason"
       - "[openguimenu] pys"
   'warn':
@@ -28,7 +28,7 @@ items:
     slot: 11
     left_click_commands:
       - "[sound] BLOCK_LEVER_CLICK"
-      - "[meta] set curcom STRING advancedban:warn"
+      - "[meta] set curcom STRING warn"
       - "[meta] set nxgm STRING advbanreason"
       - "[openguimenu] pys"
   'mute':
@@ -37,7 +37,7 @@ items:
     slot: 12
     left_click_commands:
       - "[sound] BLOCK_LEVER_CLICK"
-      - "[meta] set curcom STRING advancedban:mute"
+      - "[meta] set curcom STRING mute"
       - "[meta] set nxgm STRING advbanreason"
       - "[openguimenu] pys"
   'tempban':
@@ -46,7 +46,7 @@ items:
     slot: 13
     left_click_commands:
       - "[sound] BLOCK_LEVER_CLICK"
-      - "[meta] set curcom STRING advancedban:tempban"
+      - "[meta] set curcom STRING tempban"
       - "[meta] set nxgm STRING advbantime"
       - "[openguimenu] pys"
   'tempwarn':
@@ -55,7 +55,7 @@ items:
     slot: 14
     left_click_commands:
       - "[sound] BLOCK_LEVER_CLICK"
-      - "[meta] set curcom STRING advancedban:tempwarn"
+      - "[meta] set curcom STRING tempwarn"
       - "[meta] set nxgm STRING advbantime"
       - "[openguimenu] pys"
   'tempmute':
@@ -64,6 +64,39 @@ items:
     slot: 15
     left_click_commands:
       - "[sound] BLOCK_LEVER_CLICK"
-      - "[meta] set curcom STRING advancedban:tempmute"
+      - "[meta] set curcom STRING tempmute"
       - "[meta] set nxgm STRING advbantime"
       - "[openguimenu] pys"
+  'unwarn':
+    display_name: "取消警告"
+    material: DIAMOND
+    slot: 16
+    left_click_commands:
+      - "[sound] BLOCK_LEVER_CLICK"
+      - "[meta] set curcom STRING unwarn"
+      - "[meta] set nxgm STRING execute"
+      - "[openguimenu] pys"
+  'unban':
+    display_name: "取消封禁"
+    material: DIAMOND
+    slot: 19
+    left_click_commands:
+      - "[sound] BLOCK_LEVER_CLICK"
+      - "[meta] set curcom STRING unban"
+      - "[meta] set nxgm STRING execute"
+      - "[openguimenu] pys"
+  'unmute':
+    display_name: "取消禁言"
+    material: DIAMOND
+    slot: 20
+    left_click_commands:
+      - "[sound] BLOCK_LEVER_CLICK"
+      - "[meta] set curcom STRING unmute"
+      - "[meta] set nxgm STRING execute"
+      - "[openguimenu] pys"
+  'curcom':
+    display_name: "当前命令"
+    material: OAK_SIGN
+    slot: 4
+    lore:
+      - "%deluxemenus_meta_curcom_STRING%"

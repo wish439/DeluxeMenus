@@ -19,6 +19,12 @@ items:
     slot: 10
     left_click_commands:
       - "[sound] BLOCK_LEVER_CLICK"
-      - "[player] say execute:%deluxemenus_meta_curcom_STRING%"
       - "[player] %deluxemenus_meta_curcom_STRING%"
+      - "[meta] remove curcom STRING"
       - "[close]"
+  'curcom':
+    display_name: "当前命令"
+    material: OAK_SIGN
+    slot: 4
+    lore:
+      - "%deluxemenus_meta_curcom_STRING%"

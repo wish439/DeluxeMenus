@@ -21,7 +21,13 @@ items:
       - "[sound] BLOCK_LEVER_CLICK"
       - "[meta] set nxgm STRING execute"
       - "[meta] set curcom STRING %deluxemenus_meta_curcom_STRING% add"
-      - "[openguimenu] groups"
+      - "[openguimenu] gps"
+  'curcom':
+    display_name: "当前命令"
+    material: OAK_SIGN
+    slot: 4
+    lore:
+      - "%deluxemenus_meta_curcom_STRING%"
   'remove':
     display_name: "将此玩家从某个权限组删除"
     material: BARRIER
@@ -30,4 +36,4 @@ items:
       - "[sound] BLOCK_LEVER_CLICK"
       - "[meta] set nxgm STRING execute"
       - "[meta] set curcom STRING %deluxemenus_meta_curcom_STRING% remove"
-      - "[openguimenu] groups"
+      - "[openguimenu] pgps"
