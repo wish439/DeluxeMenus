@@ -26,10 +26,10 @@ items:
           input: '%playerlist_players_0%'
           output: '('
   "head1":
-      material: head-%playerlist_players_1%
-      display_name: "%playerlist_players_1%"
-      slot: 11
-      view_requirement: 
+    material: head-%playerlist_players_1%
+    display_name: "%playerlist_players_1%"
+    slot: 11
+    view_requirement: 
       requirements:
         yes:
           type: "!string equals"
@@ -39,12 +39,12 @@ items:
           type: "!string contains"
           input: '%playerlist_players_1%'
           output: '('
-      left_click_commands:
-        - "[meta] set curcom STRING %deluxemenus_meta_curcom_STRING% %playerlist_players_1% %deluxemenus_meta_nxtext_STRING%"
-        - "[meta] remove nxtext STRING"
-        - "[meta] set curtar STRING %playerlist_players_1%"
-        - "[openguimenu] %deluxemenus_meta_nxgm_STRING%"
-  "head2":
+    left_click_commands:
+      - "[meta] set curcom STRING %deluxemenus_meta_curcom_STRING% %playerlist_players_1% %deluxemenus_meta_nxtext_STRING%"
+      - "[meta] remove nxtext STRING"
+      - "[meta] set curtar STRING %playerlist_players_1%"
+      - "[openguimenu] %deluxemenus_meta_nxgm_STRING%"
+  "hd2":
     material: head-%playerlist_players_2%
     display_name: "%playerlist_players_2%"
     slot: 12
