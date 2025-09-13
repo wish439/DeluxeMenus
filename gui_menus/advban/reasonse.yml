@@ -101,6 +101,22 @@ items:
       - "[sound] BLOCK_LEVER_CLICK"
       - "[meta] set curcom STRING %deluxemenus_meta_curcom_STRING% 散播负面消息"
       - "[openguimenu] execute"
+  'xd':
+    display_name: "闲的"
+    material: DIAMOND_ORE
+    slot: 22
+    left_click_commands:
+      - "[sound] BLOCK_LEVER_CLICK"
+      - "[meta] set curcom STRING %deluxemenus_meta_curcom_STRING% 闲的"
+      - "[openguimenu] execute"
+  'knbs':
+    display_name: "看泥不爽"
+    material: DIAMOND_ORE
+    slot: 22
+    left_click_commands:
+      - "[sound] BLOCK_LEVER_CLICK"
+      - "[meta] set curcom STRING %deluxemenus_meta_curcom_STRING% 看泥不爽"
+      - "[openguimenu] execute"
   'curcom':
     display_name: "当前命令"
     material: OAK_SIGN
